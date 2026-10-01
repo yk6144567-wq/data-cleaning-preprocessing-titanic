@@ -1,0 +1,7 @@
+Issue,Before,Action Taken,After
+Missing Age values,4,Filled missing Age values with the median,0
+Missing Embarked values,1,Filled missing Embarked values with the mode,0
+Missing Cabin values,0,Replaced missing/blank Cabin values with 'Unknown',0
+Duplicate rows,1,Removed exact duplicate rows,0
+Inconsistent text formatting,Mixed case and extra spaces,Trimmed spaces and standardized Sex/Embarked,Standardized
+Data type validation,Types inspected,Converted important numeric columns to numeric types,Validated
